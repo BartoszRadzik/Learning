@@ -1,0 +1,11 @@
+C:\Users\barto\Documents\GitHub\Learning\C#\Print Stars Patterns\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\barto\Documents\GitHub\Learning\C#\Print Stars Patterns\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\barto\Documents\GitHub\Learning\C#\Print Stars Patterns\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\barto\Documents\GitHub\Learning\C#\Print Stars Patterns\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\barto\Documents\GitHub\Learning\C#\Print Stars Patterns\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\barto\Documents\GitHub\Learning\C#\Print Stars Patterns\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\barto\Documents\GitHub\Learning\C#\Print Stars Patterns\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\barto\Documents\GitHub\Learning\C#\Print Stars Patterns\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\barto\Documents\GitHub\Learning\C#\Print Stars Patterns\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\barto\Documents\GitHub\Learning\C#\Print Stars Patterns\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\barto\Documents\GitHub\Learning\C#\Print Stars Patterns\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
