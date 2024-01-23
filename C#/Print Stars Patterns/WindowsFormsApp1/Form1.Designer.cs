@@ -33,7 +33,11 @@
 			this.showPatternTXT = new System.Windows.Forms.TextBox();
 			this.PrintBTN = new System.Windows.Forms.Button();
 			this.patternsCMB = new System.Windows.Forms.ComboBox();
+			this.Data1LBL = new System.Windows.Forms.Label();
+			this.label2 = new System.Windows.Forms.Label();
+			this.Data1Numeric = new System.Windows.Forms.NumericUpDown();
 			this.panel1.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)(this.Data1Numeric)).BeginInit();
 			this.SuspendLayout();
 			// 
 			// panel1
@@ -42,6 +46,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
 			this.panel1.BackColor = System.Drawing.Color.White;
+			this.panel1.Controls.Add(this.Data1Numeric);
+			this.panel1.Controls.Add(this.label2);
+			this.panel1.Controls.Add(this.Data1LBL);
 			this.panel1.Controls.Add(this.patternsCMB);
 			this.panel1.Controls.Add(this.PrintBTN);
 			this.panel1.Controls.Add(this.showPatternTXT);
@@ -83,12 +90,42 @@
 			// 
 			this.patternsCMB.FormattingEnabled = true;
 			this.patternsCMB.Items.AddRange(new object[] {
-            "Kwadrat",
-            "Prostokąt"});
-			this.patternsCMB.Location = new System.Drawing.Point(293, 90);
+            "Christmas Tree",
+            "Square",
+            "Rectangle",
+            "Star",
+            "Triangle",
+            "Diamond"});
+			this.patternsCMB.Location = new System.Drawing.Point(293, 106);
 			this.patternsCMB.Name = "patternsCMB";
 			this.patternsCMB.Size = new System.Drawing.Size(172, 21);
 			this.patternsCMB.TabIndex = 3;
+			this.patternsCMB.SelectedIndexChanged += new System.EventHandler(this.patternsCMB_SelectedIndexChanged);
+			// 
+			// Data1LBL
+			// 
+			this.Data1LBL.AutoSize = true;
+			this.Data1LBL.Location = new System.Drawing.Point(290, 160);
+			this.Data1LBL.Name = "Data1LBL";
+			this.Data1LBL.Size = new System.Drawing.Size(61, 13);
+			this.Data1LBL.TabIndex = 5;
+			this.Data1LBL.Text = "Podaj dane";
+			// 
+			// label2
+			// 
+			this.label2.AutoSize = true;
+			this.label2.Location = new System.Drawing.Point(290, 90);
+			this.label2.Name = "label2";
+			this.label2.Size = new System.Drawing.Size(74, 13);
+			this.label2.TabIndex = 6;
+			this.label2.Text = "Wybierz figurę";
+			// 
+			// Data1Numeric
+			// 
+			this.Data1Numeric.Location = new System.Drawing.Point(293, 176);
+			this.Data1Numeric.Name = "Data1Numeric";
+			this.Data1Numeric.Size = new System.Drawing.Size(120, 20);
+			this.Data1Numeric.TabIndex = 7;
 			// 
 			// Form1
 			// 
@@ -103,6 +140,7 @@
 			this.Text = "Form1";
 			this.panel1.ResumeLayout(false);
 			this.panel1.PerformLayout();
+			((System.ComponentModel.ISupportInitialize)(this.Data1Numeric)).EndInit();
 			this.ResumeLayout(false);
 
 		}
@@ -114,6 +152,9 @@
 		private System.Windows.Forms.Button PrintBTN;
 		private System.Windows.Forms.TextBox showPatternTXT;
 		private System.Windows.Forms.ComboBox patternsCMB;
+		private System.Windows.Forms.Label label2;
+		private System.Windows.Forms.Label Data1LBL;
+		private System.Windows.Forms.NumericUpDown Data1Numeric;
 	}
 }
 
